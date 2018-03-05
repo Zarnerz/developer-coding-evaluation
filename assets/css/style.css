@@ -51,6 +51,12 @@ header img {
   width: 60%;
 }
 
+.info:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
 /* Section - Clients */
 
 .client-blurb {
@@ -76,4 +82,10 @@ header img {
 
 .logo img {
   vertical-align: middle;
+}
+
+.clients:after {
+    display: block;
+    content: "";
+    clear: both; 
 }
